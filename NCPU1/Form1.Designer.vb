@@ -22,68 +22,68 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.a_tb = New System.Windows.Forms.TextBox
-        Me.x_tb = New System.Windows.Forms.TextBox
-        Me.y_tb = New System.Windows.Forms.TextBox
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.c_tb = New System.Windows.Forms.TextBox
-        Me.z_tb = New System.Windows.Forms.TextBox
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox
-        Me.temp_tb = New System.Windows.Forms.TextBox
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.Label23 = New System.Windows.Forms.Label
-        Me.cmp_tb = New System.Windows.Forms.TextBox
-        Me.Label21 = New System.Windows.Forms.Label
-        Me.eq_tb = New System.Windows.Forms.TextBox
-        Me.Label20 = New System.Windows.Forms.Label
-        Me.xor_tb = New System.Windows.Forms.TextBox
-        Me.Label19 = New System.Windows.Forms.Label
-        Me.or_tb = New System.Windows.Forms.TextBox
-        Me.Label18 = New System.Windows.Forms.Label
-        Me.and_tb = New System.Windows.Forms.TextBox
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.Label10 = New System.Windows.Forms.Label
-        Me.add_tb = New System.Windows.Forms.TextBox
-        Me.sub_tb = New System.Windows.Forms.TextBox
+        Me.components = New System.ComponentModel.Container()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.a_tb = New System.Windows.Forms.TextBox()
+        Me.x_tb = New System.Windows.Forms.TextBox()
+        Me.y_tb = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.c_tb = New System.Windows.Forms.TextBox()
+        Me.z_tb = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.temp_tb = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.cmp_tb = New System.Windows.Forms.TextBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.eq_tb = New System.Windows.Forms.TextBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.rol_tb = New System.Windows.Forms.TextBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.ror_tb = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.xor_tb = New System.Windows.Forms.TextBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.or_tb = New System.Windows.Forms.TextBox()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.and_tb = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.add_tb = New System.Windows.Forms.TextBox()
+        Me.sub_tb = New System.Windows.Forms.TextBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog
-        Me.db_tb = New System.Windows.Forms.TextBox
-        Me.Label7 = New System.Windows.Forms.Label
-        Me.psc_tb = New System.Windows.Forms.TextBox
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.tc_tb = New System.Windows.Forms.TextBox
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.ab_tb = New System.Windows.Forms.TextBox
-        Me.Label12 = New System.Windows.Forms.Label
-        Me.sp_tb = New System.Windows.Forms.TextBox
-        Me.Label13 = New System.Windows.Forms.Label
-        Me.pc_tb = New System.Windows.Forms.TextBox
-        Me.Label14 = New System.Windows.Forms.Label
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox
-        Me.Label17 = New System.Windows.Forms.Label
-        Me.opt_tb = New System.Windows.Forms.TextBox
-        Me.Label16 = New System.Windows.Forms.Label
-        Me.al_tb = New System.Windows.Forms.TextBox
-        Me.Label15 = New System.Windows.Forms.Label
-        Me.ah_tb = New System.Windows.Forms.TextBox
-        Me.TextBox1 = New System.Windows.Forms.TextBox
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
-        Me.Label22 = New System.Windows.Forms.Label
-        Me.ror_tb = New System.Windows.Forms.TextBox
-        Me.Label24 = New System.Windows.Forms.Label
-        Me.rol_tb = New System.Windows.Forms.TextBox
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.db_tb = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.psc_tb = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.tc_tb = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.ab_tb = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.sp_tb = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.pc_tb = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.opt_tb = New System.Windows.Forms.TextBox()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.al_tb = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.ah_tb = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -98,7 +98,7 @@ Partial Class Form1
         Me.Label1.Location = New System.Drawing.Point(16, 44)
         Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(22, 24)
+        Me.Label1.Size = New System.Drawing.Size(29, 32)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "A"
         '
@@ -109,7 +109,7 @@ Partial Class Form1
         Me.Label2.Location = New System.Drawing.Point(16, 82)
         Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(22, 24)
+        Me.Label2.Size = New System.Drawing.Size(29, 32)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "X"
         '
@@ -120,37 +120,37 @@ Partial Class Form1
         Me.Label3.Location = New System.Drawing.Point(16, 120)
         Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(22, 24)
+        Me.Label3.Size = New System.Drawing.Size(29, 32)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Y"
         '
         'a_tb
         '
         Me.a_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.a_tb.Location = New System.Drawing.Point(47, 38)
+        Me.a_tb.Location = New System.Drawing.Point(55, 38)
         Me.a_tb.Name = "a_tb"
         Me.a_tb.ReadOnly = True
-        Me.a_tb.Size = New System.Drawing.Size(117, 32)
+        Me.a_tb.Size = New System.Drawing.Size(117, 38)
         Me.a_tb.TabIndex = 3
         Me.a_tb.Text = "0"
         '
         'x_tb
         '
         Me.x_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.x_tb.Location = New System.Drawing.Point(47, 79)
+        Me.x_tb.Location = New System.Drawing.Point(55, 79)
         Me.x_tb.Name = "x_tb"
         Me.x_tb.ReadOnly = True
-        Me.x_tb.Size = New System.Drawing.Size(117, 32)
+        Me.x_tb.Size = New System.Drawing.Size(117, 38)
         Me.x_tb.TabIndex = 4
         Me.x_tb.Text = "0"
         '
         'y_tb
         '
         Me.y_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.y_tb.Location = New System.Drawing.Point(47, 117)
+        Me.y_tb.Location = New System.Drawing.Point(55, 117)
         Me.y_tb.Name = "y_tb"
         Me.y_tb.ReadOnly = True
-        Me.y_tb.Size = New System.Drawing.Size(117, 32)
+        Me.y_tb.Size = New System.Drawing.Size(117, 38)
         Me.y_tb.TabIndex = 5
         Me.y_tb.Text = "0"
         '
@@ -160,27 +160,27 @@ Partial Class Form1
         Me.Label4.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(17, 32)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(82, 24)
+        Me.Label4.Size = New System.Drawing.Size(104, 32)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "C Flag"
         '
         'c_tb
         '
         Me.c_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.c_tb.Location = New System.Drawing.Point(106, 29)
+        Me.c_tb.Location = New System.Drawing.Point(123, 29)
         Me.c_tb.Name = "c_tb"
         Me.c_tb.ReadOnly = True
-        Me.c_tb.Size = New System.Drawing.Size(58, 32)
+        Me.c_tb.Size = New System.Drawing.Size(59, 38)
         Me.c_tb.TabIndex = 7
         Me.c_tb.Text = "0"
         '
         'z_tb
         '
         Me.z_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.z_tb.Location = New System.Drawing.Point(106, 67)
+        Me.z_tb.Location = New System.Drawing.Point(123, 67)
         Me.z_tb.Name = "z_tb"
         Me.z_tb.ReadOnly = True
-        Me.z_tb.Size = New System.Drawing.Size(58, 32)
+        Me.z_tb.Size = New System.Drawing.Size(58, 38)
         Me.z_tb.TabIndex = 9
         Me.z_tb.Text = "0"
         '
@@ -190,7 +190,7 @@ Partial Class Form1
         Me.Label5.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(17, 70)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(82, 24)
+        Me.Label5.Size = New System.Drawing.Size(104, 32)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Z Flag"
         '
@@ -215,13 +215,24 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "General Purpose Registers"
         '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(19, 196)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(59, 32)
+        Me.Label23.TabIndex = 16
+        Me.Label23.Text = "CMP"
+        '
         'temp_tb
         '
         Me.temp_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.temp_tb.Location = New System.Drawing.Point(78, 155)
+        Me.temp_tb.Location = New System.Drawing.Point(86, 155)
         Me.temp_tb.Name = "temp_tb"
         Me.temp_tb.ReadOnly = True
-        Me.temp_tb.Size = New System.Drawing.Size(86, 32)
+        Me.temp_tb.Size = New System.Drawing.Size(86, 38)
         Me.temp_tb.TabIndex = 3
         Me.temp_tb.Text = "0"
         '
@@ -232,9 +243,19 @@ Partial Class Form1
         Me.Label8.Location = New System.Drawing.Point(15, 158)
         Me.Label8.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(58, 24)
+        Me.Label8.Size = New System.Drawing.Size(74, 32)
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "Temp"
+        '
+        'cmp_tb
+        '
+        Me.cmp_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmp_tb.Location = New System.Drawing.Point(86, 193)
+        Me.cmp_tb.Name = "cmp_tb"
+        Me.cmp_tb.ReadOnly = True
+        Me.cmp_tb.Size = New System.Drawing.Size(86, 38)
+        Me.cmp_tb.TabIndex = 17
+        Me.cmp_tb.Text = "0"
         '
         'GroupBox4
         '
@@ -251,6 +272,27 @@ Partial Class Form1
         Me.GroupBox4.TabIndex = 20
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Flag Registers"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(45, 108)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(44, 32)
+        Me.Label21.TabIndex = 12
+        Me.Label21.Text = "EQ"
+        '
+        'eq_tb
+        '
+        Me.eq_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.eq_tb.Location = New System.Drawing.Point(123, 105)
+        Me.eq_tb.Name = "eq_tb"
+        Me.eq_tb.ReadOnly = True
+        Me.eq_tb.Size = New System.Drawing.Size(58, 38)
+        Me.eq_tb.TabIndex = 13
+        Me.eq_tb.Text = "0"
         '
         'GroupBox2
         '
@@ -272,52 +314,53 @@ Partial Class Form1
         Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ControlText
         Me.GroupBox2.Location = New System.Drawing.Point(13, 268)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(628, 130)
+        Me.GroupBox2.Size = New System.Drawing.Size(706, 130)
         Me.GroupBox2.TabIndex = 15
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "ALU"
         '
-        'Label23
+        'Label24
         '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(19, 196)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(46, 24)
-        Me.Label23.TabIndex = 16
-        Me.Label23.Text = "CMP"
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.SystemColors.Control
+        Me.Label24.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(332, 75)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(59, 32)
+        Me.Label24.TabIndex = 14
+        Me.Label24.Text = "ROL"
         '
-        'cmp_tb
+        'rol_tb
         '
-        Me.cmp_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmp_tb.Location = New System.Drawing.Point(78, 193)
-        Me.cmp_tb.Name = "cmp_tb"
-        Me.cmp_tb.ReadOnly = True
-        Me.cmp_tb.Size = New System.Drawing.Size(86, 32)
-        Me.cmp_tb.TabIndex = 17
-        Me.cmp_tb.Text = "0"
+        Me.rol_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rol_tb.Location = New System.Drawing.Point(389, 72)
+        Me.rol_tb.Name = "rol_tb"
+        Me.rol_tb.ReadOnly = True
+        Me.rol_tb.Size = New System.Drawing.Size(65, 38)
+        Me.rol_tb.TabIndex = 15
+        Me.rol_tb.Text = "0"
         '
-        'Label21
+        'Label22
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(45, 108)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(34, 24)
-        Me.Label21.TabIndex = 12
-        Me.Label21.Text = "EQ"
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(204, 75)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(59, 32)
+        Me.Label22.TabIndex = 12
+        Me.Label22.Text = "ROR"
         '
-        'eq_tb
+        'ror_tb
         '
-        Me.eq_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.eq_tb.Location = New System.Drawing.Point(106, 105)
-        Me.eq_tb.Name = "eq_tb"
-        Me.eq_tb.ReadOnly = True
-        Me.eq_tb.Size = New System.Drawing.Size(58, 32)
-        Me.eq_tb.TabIndex = 13
-        Me.eq_tb.Text = "0"
+        Me.ror_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ror_tb.Location = New System.Drawing.Point(259, 72)
+        Me.ror_tb.Name = "ror_tb"
+        Me.ror_tb.ReadOnly = True
+        Me.ror_tb.Size = New System.Drawing.Size(64, 38)
+        Me.ror_tb.TabIndex = 13
+        Me.ror_tb.Text = "0"
         '
         'Label20
         '
@@ -326,7 +369,7 @@ Partial Class Form1
         Me.Label20.Location = New System.Drawing.Point(465, 37)
         Me.Label20.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(46, 24)
+        Me.Label20.Size = New System.Drawing.Size(59, 32)
         Me.Label20.TabIndex = 10
         Me.Label20.Text = "XOR"
         '
@@ -336,7 +379,7 @@ Partial Class Form1
         Me.xor_tb.Location = New System.Drawing.Point(520, 34)
         Me.xor_tb.Name = "xor_tb"
         Me.xor_tb.ReadOnly = True
-        Me.xor_tb.Size = New System.Drawing.Size(62, 32)
+        Me.xor_tb.Size = New System.Drawing.Size(62, 38)
         Me.xor_tb.TabIndex = 11
         Me.xor_tb.Text = "0"
         '
@@ -347,17 +390,17 @@ Partial Class Form1
         Me.Label19.Location = New System.Drawing.Point(339, 37)
         Me.Label19.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(34, 24)
+        Me.Label19.Size = New System.Drawing.Size(44, 32)
         Me.Label19.TabIndex = 8
         Me.Label19.Text = "OR"
         '
         'or_tb
         '
         Me.or_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.or_tb.Location = New System.Drawing.Point(382, 34)
+        Me.or_tb.Location = New System.Drawing.Point(389, 34)
         Me.or_tb.Name = "or_tb"
         Me.or_tb.ReadOnly = True
-        Me.or_tb.Size = New System.Drawing.Size(65, 32)
+        Me.or_tb.Size = New System.Drawing.Size(65, 38)
         Me.or_tb.TabIndex = 9
         Me.or_tb.Text = "0"
         '
@@ -368,7 +411,7 @@ Partial Class Form1
         Me.Label18.Location = New System.Drawing.Point(204, 37)
         Me.Label18.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(46, 24)
+        Me.Label18.Size = New System.Drawing.Size(59, 32)
         Me.Label18.TabIndex = 6
         Me.Label18.Text = "AND"
         '
@@ -378,7 +421,7 @@ Partial Class Form1
         Me.and_tb.Location = New System.Drawing.Point(259, 34)
         Me.and_tb.Name = "and_tb"
         Me.and_tb.ReadOnly = True
-        Me.and_tb.Size = New System.Drawing.Size(64, 32)
+        Me.and_tb.Size = New System.Drawing.Size(64, 38)
         Me.and_tb.TabIndex = 7
         Me.and_tb.Text = "0"
         '
@@ -389,7 +432,7 @@ Partial Class Form1
         Me.Label9.Location = New System.Drawing.Point(16, 37)
         Me.Label9.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(46, 24)
+        Me.Label9.Size = New System.Drawing.Size(59, 32)
         Me.Label9.TabIndex = 1
         Me.Label9.Text = "Add"
         '
@@ -400,7 +443,7 @@ Partial Class Form1
         Me.Label10.Location = New System.Drawing.Point(16, 75)
         Me.Label10.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(46, 24)
+        Me.Label10.Size = New System.Drawing.Size(59, 32)
         Me.Label10.TabIndex = 2
         Me.Label10.Text = "Sub"
         '
@@ -410,7 +453,7 @@ Partial Class Form1
         Me.add_tb.Location = New System.Drawing.Point(79, 34)
         Me.add_tb.Name = "add_tb"
         Me.add_tb.ReadOnly = True
-        Me.add_tb.Size = New System.Drawing.Size(86, 32)
+        Me.add_tb.Size = New System.Drawing.Size(86, 38)
         Me.add_tb.TabIndex = 4
         Me.add_tb.Text = "0"
         '
@@ -420,7 +463,7 @@ Partial Class Form1
         Me.sub_tb.Location = New System.Drawing.Point(79, 72)
         Me.sub_tb.Name = "sub_tb"
         Me.sub_tb.ReadOnly = True
-        Me.sub_tb.Size = New System.Drawing.Size(86, 32)
+        Me.sub_tb.Size = New System.Drawing.Size(86, 38)
         Me.sub_tb.TabIndex = 5
         Me.sub_tb.Text = "0"
         '
@@ -431,9 +474,9 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(336, 71)
+        Me.Button1.Location = New System.Drawing.Point(411, 71)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(79, 75)
+        Me.Button1.Size = New System.Drawing.Size(87, 75)
         Me.Button1.TabIndex = 21
         Me.Button1.Text = "Load"
         Me.Button1.UseVisualStyleBackColor = True
@@ -446,10 +489,10 @@ Partial Class Form1
         'db_tb
         '
         Me.db_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.db_tb.Location = New System.Drawing.Point(67, 73)
+        Me.db_tb.Location = New System.Drawing.Point(74, 73)
         Me.db_tb.Name = "db_tb"
         Me.db_tb.ReadOnly = True
-        Me.db_tb.Size = New System.Drawing.Size(88, 32)
+        Me.db_tb.Size = New System.Drawing.Size(88, 38)
         Me.db_tb.TabIndex = 13
         Me.db_tb.Text = "0"
         '
@@ -459,17 +502,17 @@ Partial Class Form1
         Me.Label7.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(15, 76)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(34, 24)
+        Me.Label7.Size = New System.Drawing.Size(44, 32)
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "DB"
         '
         'psc_tb
         '
         Me.psc_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.psc_tb.Location = New System.Drawing.Point(67, 35)
+        Me.psc_tb.Location = New System.Drawing.Point(74, 35)
         Me.psc_tb.Name = "psc_tb"
         Me.psc_tb.ReadOnly = True
-        Me.psc_tb.Size = New System.Drawing.Size(88, 32)
+        Me.psc_tb.Size = New System.Drawing.Size(88, 38)
         Me.psc_tb.TabIndex = 11
         Me.psc_tb.Text = "0"
         '
@@ -479,7 +522,7 @@ Partial Class Form1
         Me.Label6.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(15, 38)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(46, 24)
+        Me.Label6.Size = New System.Drawing.Size(59, 32)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "PSC"
         '
@@ -489,7 +532,7 @@ Partial Class Form1
         Me.tc_tb.Location = New System.Drawing.Point(218, 35)
         Me.tc_tb.Name = "tc_tb"
         Me.tc_tb.ReadOnly = True
-        Me.tc_tb.Size = New System.Drawing.Size(185, 32)
+        Me.tc_tb.Size = New System.Drawing.Size(185, 38)
         Me.tc_tb.TabIndex = 15
         Me.tc_tb.Text = "0"
         '
@@ -499,7 +542,7 @@ Partial Class Form1
         Me.Label11.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(178, 38)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(34, 24)
+        Me.Label11.Size = New System.Drawing.Size(44, 32)
         Me.Label11.TabIndex = 14
         Me.Label11.Text = "TC"
         '
@@ -509,7 +552,7 @@ Partial Class Form1
         Me.ab_tb.Location = New System.Drawing.Point(218, 111)
         Me.ab_tb.Name = "ab_tb"
         Me.ab_tb.ReadOnly = True
-        Me.ab_tb.Size = New System.Drawing.Size(185, 32)
+        Me.ab_tb.Size = New System.Drawing.Size(185, 38)
         Me.ab_tb.TabIndex = 17
         '
         'Label12
@@ -518,17 +561,17 @@ Partial Class Form1
         Me.Label12.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(178, 114)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(34, 24)
+        Me.Label12.Size = New System.Drawing.Size(44, 32)
         Me.Label12.TabIndex = 16
         Me.Label12.Text = "AB"
         '
         'sp_tb
         '
         Me.sp_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.sp_tb.Location = New System.Drawing.Point(67, 111)
+        Me.sp_tb.Location = New System.Drawing.Point(74, 111)
         Me.sp_tb.Name = "sp_tb"
         Me.sp_tb.ReadOnly = True
-        Me.sp_tb.Size = New System.Drawing.Size(88, 32)
+        Me.sp_tb.Size = New System.Drawing.Size(88, 38)
         Me.sp_tb.TabIndex = 19
         Me.sp_tb.Text = "255"
         '
@@ -538,7 +581,7 @@ Partial Class Form1
         Me.Label13.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(15, 114)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(34, 24)
+        Me.Label13.Size = New System.Drawing.Size(44, 32)
         Me.Label13.TabIndex = 18
         Me.Label13.Text = "SP"
         '
@@ -548,7 +591,7 @@ Partial Class Form1
         Me.pc_tb.Location = New System.Drawing.Point(218, 149)
         Me.pc_tb.Name = "pc_tb"
         Me.pc_tb.ReadOnly = True
-        Me.pc_tb.Size = New System.Drawing.Size(185, 32)
+        Me.pc_tb.Size = New System.Drawing.Size(185, 38)
         Me.pc_tb.TabIndex = 21
         Me.pc_tb.Text = "32768"
         '
@@ -558,7 +601,7 @@ Partial Class Form1
         Me.Label14.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(178, 152)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(34, 24)
+        Me.Label14.Size = New System.Drawing.Size(44, 32)
         Me.Label14.TabIndex = 20
         Me.Label14.Text = "PC"
         '
@@ -586,7 +629,7 @@ Partial Class Form1
         Me.GroupBox3.ForeColor = System.Drawing.SystemColors.ControlText
         Me.GroupBox3.Location = New System.Drawing.Point(211, 12)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(428, 250)
+        Me.GroupBox3.Size = New System.Drawing.Size(508, 250)
         Me.GroupBox3.TabIndex = 15
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Control Logics"
@@ -597,17 +640,17 @@ Partial Class Form1
         Me.Label17.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(15, 152)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(46, 24)
+        Me.Label17.Size = New System.Drawing.Size(59, 32)
         Me.Label17.TabIndex = 26
         Me.Label17.Text = "OPT"
         '
         'opt_tb
         '
         Me.opt_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.opt_tb.Location = New System.Drawing.Point(67, 149)
+        Me.opt_tb.Location = New System.Drawing.Point(74, 149)
         Me.opt_tb.Name = "opt_tb"
         Me.opt_tb.ReadOnly = True
-        Me.opt_tb.Size = New System.Drawing.Size(88, 32)
+        Me.opt_tb.Size = New System.Drawing.Size(88, 38)
         Me.opt_tb.TabIndex = 27
         Me.opt_tb.Text = "0"
         '
@@ -617,7 +660,7 @@ Partial Class Form1
         Me.Label16.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(304, 76)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(34, 24)
+        Me.Label16.Size = New System.Drawing.Size(44, 32)
         Me.Label16.TabIndex = 24
         Me.Label16.Text = "AL"
         '
@@ -627,7 +670,7 @@ Partial Class Form1
         Me.al_tb.Location = New System.Drawing.Point(344, 73)
         Me.al_tb.Name = "al_tb"
         Me.al_tb.ReadOnly = True
-        Me.al_tb.Size = New System.Drawing.Size(59, 32)
+        Me.al_tb.Size = New System.Drawing.Size(59, 38)
         Me.al_tb.TabIndex = 25
         Me.al_tb.Text = "0"
         '
@@ -637,7 +680,7 @@ Partial Class Form1
         Me.Label15.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(178, 76)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(34, 24)
+        Me.Label15.Size = New System.Drawing.Size(44, 32)
         Me.Label15.TabIndex = 22
         Me.Label15.Text = "AH"
         '
@@ -647,7 +690,7 @@ Partial Class Form1
         Me.ah_tb.Location = New System.Drawing.Point(218, 73)
         Me.ah_tb.Name = "ah_tb"
         Me.ah_tb.ReadOnly = True
-        Me.ah_tb.Size = New System.Drawing.Size(59, 32)
+        Me.ah_tb.Size = New System.Drawing.Size(59, 38)
         Me.ah_tb.TabIndex = 23
         Me.ah_tb.Text = "0"
         '
@@ -656,13 +699,13 @@ Partial Class Form1
         Me.TextBox1.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(98, 90)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(127, 32)
+        Me.TextBox1.Size = New System.Drawing.Size(186, 38)
         Me.TextBox1.TabIndex = 22
         '
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(231, 86)
+        Me.Button2.Location = New System.Drawing.Point(291, 86)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(99, 39)
         Me.Button2.TabIndex = 23
@@ -672,9 +715,9 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(336, 17)
+        Me.Button3.Location = New System.Drawing.Point(411, 17)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(79, 48)
+        Me.Button3.Size = New System.Drawing.Size(87, 48)
         Me.Button3.TabIndex = 24
         Me.Button3.Text = "Tick"
         Me.Button3.UseVisualStyleBackColor = True
@@ -687,59 +730,17 @@ Partial Class Form1
         Me.CheckBox1.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.Location = New System.Drawing.Point(98, 28)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(149, 28)
+        Me.CheckBox1.Size = New System.Drawing.Size(186, 36)
         Me.CheckBox1.TabIndex = 25
         Me.CheckBox1.Text = "Auto Clock"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(204, 75)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(46, 24)
-        Me.Label22.TabIndex = 12
-        Me.Label22.Text = "ROR"
-        '
-        'ror_tb
-        '
-        Me.ror_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ror_tb.Location = New System.Drawing.Point(259, 72)
-        Me.ror_tb.Name = "ror_tb"
-        Me.ror_tb.ReadOnly = True
-        Me.ror_tb.Size = New System.Drawing.Size(64, 32)
-        Me.ror_tb.TabIndex = 13
-        Me.ror_tb.Text = "0"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(332, 75)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(46, 24)
-        Me.Label24.TabIndex = 14
-        Me.Label24.Text = "ROL"
-        '
-        'rol_tb
-        '
-        Me.rol_tb.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rol_tb.Location = New System.Drawing.Point(382, 72)
-        Me.rol_tb.Name = "rol_tb"
-        Me.rol_tb.ReadOnly = True
-        Me.rol_tb.Size = New System.Drawing.Size(65, 32)
-        Me.rol_tb.TabIndex = 15
-        Me.rol_tb.Text = "0"
-        '
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(252, 18)
+        Me.Button4.Location = New System.Drawing.Point(287, 17)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(78, 48)
+        Me.Button4.Size = New System.Drawing.Size(111, 48)
         Me.Button4.TabIndex = 26
         Me.Button4.Text = "Clock"
         Me.Button4.UseVisualStyleBackColor = True
@@ -753,18 +754,18 @@ Partial Class Form1
         Me.GroupBox5.Controls.Add(Me.Button3)
         Me.GroupBox5.Controls.Add(Me.Button2)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.Location = New System.Drawing.Point(213, 405)
+        Me.GroupBox5.Location = New System.Drawing.Point(212, 405)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(428, 156)
+        Me.GroupBox5.Size = New System.Drawing.Size(507, 156)
         Me.GroupBox5.TabIndex = 27
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Controllers"
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 24.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(14.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(652, 573)
+        Me.ClientSize = New System.Drawing.Size(731, 565)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox4)
